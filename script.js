@@ -22,14 +22,7 @@ shoppingList.push("Orange Juice");
 
 // good 
 
-let myArr = [...shoppingList]
-
-console.log(myArr)
-
-console.log(shoppingList)
-
-
-console.log(shoppingList.slice());
+console.log([...shoppingList]);
 
 
 console.log("what");
@@ -53,10 +46,10 @@ shoppingList.pop();
 console.log([...shoppingList]);
 
 shoppingList.unshift("Popcorn");
-console.log(shoppingList.slice());
+console.log([...shoppingList]);
 
 shoppingList.shift();
-console.log(shoppingList.slice());
+console.log([...shoppingList]);
 
 
 
